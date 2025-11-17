@@ -4,33 +4,21 @@ title: Home
 permalink: /
 ---
 
-<table style="border: none; width: 100%;">
-  <tr style="border: none;">
-    
-    <td style="border: none; vertical-align: top; padding-right: 20px;">
-      
-      <p class="intro-text">
-        Hello traveller!
-        Choose any path above.
-      </p>
-      
-    </td>
-    
-    <td style="border: none; vertical-align: top;">
-      
-      <img 
-        src="/assets/muj-cool-obrazek.jpg" 
-        alt="ASCII art postava" 
-        width="300"
-      >
-      
-    </td>
-    
-  </tr>
-</table>
+<div class="home-container">
+  <div class="intro-section">
+    <p class="intro-text">
+      Hello traveller!<br>
+      Choose any path above.
+    </p>
+  </div>
+  
+  <div class="ascii-art-section">
+    <img src="{{ '/assets/muj-cool-obrazek.png' | relative_url }}" alt="ASCII art postava" class="ascii-image">
+  </div>
+</div>
 
-<br><br><br>
-
-<p class="quote-text">
-Není to náhodou pocestný? Je to pocestný!
-</p>
+<div class="quote-section">
+  <p class="quote-text">
+    Není to náhodou pocestný? Je to pocestný!
+  </p>
+</div>
