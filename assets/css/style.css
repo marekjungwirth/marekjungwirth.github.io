@@ -1,0 +1,22 @@
+---
+---
+// Pokud chceš přepsat proměnné tématu:
+$font-family-base: "Courier New", monospace;  // nebo jakkoliv chceš
+
+@import "jekyll-theme-console";
+
+// Vlastní styl:
+.intro-text {
+  font-size: 1.2em;
+  opacity: 1.0;
+}
+
+.quote-text {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+footer img {
+  float: left;
+  margin-right: 20px;
+}
