@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<p style="font-size: 1.2em; opacity: 1.0;">
+<p style="font-size: 1.2em !important; opacity: 1.0 !important;">
 Hello traveller!
 Choose any path above to explore...
 </p>
@@ -12,6 +12,6 @@ Choose any path above to explore...
 
 <br><br><br><br><br>
 
-<p style="font-size: 0.8em; opacity: 0.5;">
+<p style="font-size: 0.8em !important; opacity: 0.5 !important;">
 Není to náhodou pocestný? Je to pocestný!
 </p>
