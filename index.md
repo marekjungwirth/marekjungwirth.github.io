@@ -11,8 +11,6 @@ Choose any path above.
   <img src="{{ '/assets/muj-cool-obrazek.png' | relative_url }}" alt="ASCII art postava" width="300">
 </p>
 
-<br><br>
-
 <p style="text-align: center; font-style: italic;">
 Není to náhodou pocestný? Je to pocestný!
 </p>
