@@ -4,6 +4,9 @@ description: "Portfolio of data analysis, Python, SQL, and on-chain data project
 url: "https://marekjungwirth.github.io"
 baseurl: "" # Musí být prázdné!
 
+# --- Theme ---
+remote_theme: b2a3e8/jekyll-theme-console
+
 # --- Header Menu Links ---
 # Tímto říkáme hlavičce, jaké odkazy má zobrazit
 header_pages:
@@ -21,4 +24,4 @@ permalink: /:categories/:title/
 
 # --- Theme Options ---
 # Můžeš si pohrát se stylem, pokud chceš. "hacker" je klasika.
-style: dark # Možnosti: dark (default), light, hacker
+style: dark # Možnosti: dark (default), light, hacker, nord
