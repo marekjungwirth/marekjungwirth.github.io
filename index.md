@@ -7,7 +7,7 @@ permalink: /
 <table style="border: none; width: 100%;">
   <tr style="border: none;">
     
-    <td style="border: none; vertical-align: top; width: 50%; padding-right: 20px;">
+    <td style="border: none; vertical-align: top; padding-right: 20px;">
       
       <p class="intro-text">
         Hello traveller!
@@ -16,13 +16,12 @@ permalink: /
       
     </td>
     
-    <td style="border: none; vertical-align: top; width: 50%;">
+    <td style="border: none; vertical-align: top;">
       
       <img 
-        src="/assets/muj-cool-obrazek.png" 
+        src="/assets/muj-cool-obrazek.jpg" 
         alt="ASCII art postava" 
-        class="custom-image"
-        style="max-width: 100%; margin: 0;"
+        width="300"
       >
       
     </td>
