@@ -21,4 +21,4 @@ permalink: /:categories/:title/
 
 # --- Theme Options ---
 # Můžeš si pohrát se stylem, pokud chceš. "hacker" je klasika.
-style: hacker # Možnosti: dark (default), light, hacker
+style: dark # Možnosti: dark (default), light, hacker
