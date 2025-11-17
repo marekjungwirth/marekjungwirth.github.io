@@ -1,0 +1,35 @@
+---
+---
+@import "jekyll-theme-console";
+
+/* --- tvoje vlastní styly --- */
+
+.intro-text {
+  font-size: 1.4rem;
+  opacity: 1;
+}
+
+.quote-text {
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+
+/* footer override — TOTO ZARUČÍ FUNKČNOST */
+footer {
+  text-align: left !important; /* potlačí zarovnání doprava */
+  padding: 0 !important;
+}
+
+footer img {
+  width: 60px;
+  margin-right: 10px;
+  float: left;
+}
+
+/* Varianta s opakovaným dinosaurem */
+footer {
+  background-image: url("https://media2.giphy.com/media/S3thLnRWEpRwq6iDIO/giphy.gif");
+  background-repeat: repeat-x;
+  background-size: 60px auto; /* malý dinosaurus */
+  height: 80px;
+}
