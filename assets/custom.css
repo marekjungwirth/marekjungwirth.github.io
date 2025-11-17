@@ -1,0 +1,42 @@
+/* Custom styles pro homepage */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.intro-section {
+  flex: 1;
+}
+
+.ascii-art-section {
+  flex: 1;
+  text-align: center;
+}
+
+.ascii-art {
+  border: 1px solid currentColor;
+  padding: 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.quote-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+}
