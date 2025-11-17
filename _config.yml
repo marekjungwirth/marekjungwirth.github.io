@@ -2,9 +2,10 @@
 title: "Marek Jungwirth | Portfolio"
 description: "Portfolio of data analysis, Python, SQL, and on-chain data projects."
 url: "https://marekjungwirth.github.io"
-baseurl: ""
+baseurl: "" # Musí být prázdné!
 
 # --- Header Menu Links ---
+# Tímto říkáme hlavičce, jaké odkazy má zobrazit
 header_pages:
   - index.md
   - about.md
@@ -14,18 +15,10 @@ header_pages:
 # --- Build Settings ---
 plugins:
   - jekyll-seo-tag
-
-sass:
-  load_paths:
-    - _sass
-    - assets/css
-
-theme: jekyll-theme-console
-
+  
 markdown: kramdown
-
-# lepší a bezpečnější než vlastní pattern
-permalink: pretty
+permalink: /:categories/:title/
 
 # --- Theme Options ---
-style: dark
+# Můžeš si pohrát se stylem, pokud chceš. "hacker" je klasika.
+style: hacker # Možnosti: dark (default), light, hacker
