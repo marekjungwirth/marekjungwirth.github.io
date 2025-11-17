@@ -4,69 +4,22 @@ title: Home
 permalink: /
 ---
 
-<style>
-.home-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 2rem 0;
-  gap: 2rem;
-  max-width: 100%;
-}
+<table style="border: none; width: 100%; table-layout: fixed;">
+  <tr style="border: none;">
+    <td style="border: none; vertical-align: top; width: 50%; padding-right: 20px;">
+      <p>
+        Hello traveller!<br>
+        Choose any path above.
+      </p>
+    </td>
+    <td style="border: none; vertical-align: top; width: 50%; text-align: center;">
+      <img src="{{ '/assets/muj-cool-obrazek.png' | relative_url }}" alt="ASCII art postava" style="max-width: 300px; width: 100%; height: auto; border: 1px solid #00ff00;">
+    </td>
+  </tr>
+</table>
 
-.intro-section {
-  flex: 1;
-  min-width: 0;
-}
+<br><br>
 
-.ascii-art-section {
-  flex: 0 0 300px;
-  max-width: 300px;
-}
-
-.ascii-image {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid currentColor;
-  padding: 0.5rem;
-  display: block;
-}
-
-.quote-section {
-  margin-top: 4rem;
-  text-align: center;
-  clear: both;
-}
-
-.quote-text {
-  font-style: italic;
-}
-
-@media (max-width: 768px) {
-  .home-container {
-    flex-direction: column;
-  }
-  .ascii-art-section {
-    max-width: 100%;
-  }
-}
-</style>
-
-<div class="home-container">
-  <div class="intro-section">
-    <p class="intro-text">
-      Hello traveller!<br>
-      Choose any path above.
-    </p>
-  </div>
-  
-  <div class="ascii-art-section">
-    <img src="{{ '/assets/muj-cool-obrazek.png' | relative_url }}" alt="ASCII art postava" class="ascii-image">
-  </div>
-</div>
-
-<div class="quote-section">
-  <p class="quote-text">
-    Není to náhodou pocestný? Je to pocestný!
-  </p>
-</div>
+<p style="text-align: center; font-style: italic;">
+Není to náhodou pocestný? Je to pocestný!
+</p>
