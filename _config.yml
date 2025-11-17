@@ -1,20 +1,16 @@
 # --- Site Settings ---
-title: "Marek Jungwirth | Data Analyst Portfolio"
+title: "Marek Jungwirth | Portfolio"
 description: "Portfolio of data analysis, Python, SQL, and on-chain data projects."
 url: "https://marekjungwirth.github.io"
-baseurl: "" # Důležité: Ponech prázdné
+baseurl: "" # Musí být prázdné!
 
-# --- Author Settings ---
-# (Šablona možná tyto údaje použije v hlavičce/patičce)
-author:
-  name: Marek Jungwirth
-  email: "jungwirth.marek@gmail.com"
-
-# --- Social Links ---
-# (Šablona možná tyto údaje použije)
-social:
-  github: "marekjungwirth"
-  linkedin: "marekjungwirth" # Nebo jaký máš handle
+# --- Header Menu Links ---
+# Tímto říkáme hlavičce, jaké odkazy má zobrazit
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - tools.md
 
 # --- Build Settings ---
 plugins:
@@ -22,3 +18,7 @@ plugins:
   
 markdown: kramdown
 permalink: /:categories/:title/
+
+# --- Theme Options ---
+# Můžeš si pohrát se stylem, pokud chceš. "hacker" je klasika.
+style: dark # Možnosti: dark (default), light, hacker
