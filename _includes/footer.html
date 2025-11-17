@@ -1,16 +1,4 @@
 <footer class="site-footer">
-  <div class="footer-dinos">
-    {% assign count = 12 %} <!-- počet dinosaurů vedle sebe -->
-    
-    {% for i in (1..count) %}
-      <img 
-        src="{{ '/assets/img/dino.gif' | relative_url }}" 
-        alt="dino" 
-        class="footer-dino"
-      >
-    {% endfor %}
-  </div>
-
   <div class="footer-text">
     <p>© {{ site.time | date: '%Y' }} Marek Jungwirth</p>
   </div>
