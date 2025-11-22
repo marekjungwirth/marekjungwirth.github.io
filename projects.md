@@ -71,3 +71,27 @@ An automated bot that publishes daily solar and astronomical data (sunrise, suns
 [**View Source Code on GitHub**](https://github.com/marekjungwirth/nostr-slunce-bot)
 
 ---
+
+### 💰 Crypto Tracker (Electron)
+
+A lightweight desktop application built with Electron for tracking Bitcoin exchange rates and Coinmate balances in real-time, designed specifically for macOS.
+
+* **Problem:** Logging into exchange websites just to check a balance is slow, insecure in public, and doesn't account for cold storage funds.
+* **Solution:** A native desktop app that sits quietly in the background, aggregates balances from both the exchange and hardware wallets, and respects user privacy.
+* **Key Features:**
+    * **Privacy Mode:** Blurs sensitive financial data until hovered over (ideal for co-working spaces).
+    * **Secure Architecture:** API keys are stored locally in the OS-secure storage, never exposed.
+    * **Portfolio Trend:** Visualizes percentage changes over 24h, 7d, or 30d.
+    * **Hardware Wallet Support:** Manually track cold storage (Trezor) alongside hot wallet funds.
+
+**Tech Stack:**
+<p align="left">
+  <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white" alt="macOS">
+</p>
+
+[**View Source Code on GitHub**](https://github.com/marekjungwirth/coinmate-crypto-tracker)
+
+---
