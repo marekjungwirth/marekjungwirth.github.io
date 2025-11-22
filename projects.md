@@ -50,4 +50,24 @@ A cross-posting tool that automatically bridges content between the traditional 
 
 ---
 
-### Project n. 3 TBA
+### ☀️ Nostr Slunce Bot
+
+An automated bot that publishes daily solar and astronomical data (sunrise, sunset, day length) to the Nostr network.
+
+* **Problem:** Accessing specific environmental data directly within a decentralized social feed without leaving the app.
+* **Solution:** A standalone script that fetches or calculates daily solar data and broadcasts it as a formatted Nostr note.
+* **Key Features:**
+    * **Automated Scheduling:** Runs daily to provide fresh data every morning.
+    * **Nostr Integration:** Signs and publishes events directly to defined relays using NIP-01.
+    * **Data Fetching:** Integration with external weather/astronomical APIs.
+
+**Tech Stack:**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Nostr_Protocol-purple?style=flat" alt="Nostr">
+  <img src="https://img.shields.io/badge/APIs-grey?style=flat" alt="APIs">
+</p>
+
+[**View Source Code on GitHub**](https://github.com/marekjungwirth/nostr-slunce-bot)
+
+---
